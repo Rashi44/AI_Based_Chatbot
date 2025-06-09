@@ -1,0 +1,18 @@
+
+version: "2.0"
+nlu:
+- intent: greet
+  examples: |
+    - hello
+    - hi
+    - hey
+- intent: goodbye
+  examples: |
+    - bye
+    - goodbye
+    - see you
+- intent: ask_info
+  examples: |
+    - what is the admission process?
+    - tell me about internships
+    - exam schedule?
